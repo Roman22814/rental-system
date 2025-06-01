@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Your Car</title>
+    <style>
+        body { font-family: Arial; text-align: center; }
+        .container { margin: auto; width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+        select, input[type=date] { width: 90%; padding: 10px; margin: 10px 0; }
+        input[type=submit], .logout { padding: 10px 20px; background-color: green; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Book Your Car</h3>
+        <form>
+            Car Model:<br>
+            <select>
+                <option>Sedan</option>
+            </select><br>
+            Pick-up Date:<br><input type="date" value="2025-05-20"><br>
+            Return Date:<br><input type="date" value="2025-05-31"><br>
+            <input type="submit" value="Book Now"><br><br>
+            Welcome, Akshaya!<br><br>
+            <button class="logout">Logout</button>
+        </form>
+    </div>
+    <div style="margin-top: 20px; color: green;">
+        You have successfully booked a Sedan from Tue May 20 2025 to Sat May 31 2025<br>
+        <strong>Total Cost: ₹11000</strong>
+    </div>
+</body>
+</html>
